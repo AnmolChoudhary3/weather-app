@@ -1,0 +1,56 @@
+/* .search{
+    Photo by <a href="https://unsplash.com/@cmreflections?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clément M.</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Rain icon by Icons8
+  
+} */
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.heading img{
+    width: 10rem;
+}
+
+.heading h1{
+    font-size: 5rem;
+    color: rgb(1, 20, 24);
+    /* margin-left:-10rem; */
+    padding:4rem 0;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+
+.search input{
+    border: none;
+    background: rgb(252, 252, 252);
+    border-radius:6px 6px 0;
+    -webkit-border-radius:  6px 0 0 6px  ;
+    -moz-border-radius:6px 6px 0;
+    -ms-border-radius:6px 6px 0;
+    -o-border-radius:6px 6px 0;
+    color:black;
+    padding:0.5rem 2rem;
+    font-size:1.3rem;
+    margin: 1rem 0rem;
+    max-width: 70%;
+    box-shadow: 0 0 4px rgba(4, 26, 27, 0.342);
+}
+
+.search button{
+    border: none;
+    background:rgb(12, 152, 207);
+    color:white;
+    padding:0.5rem 1rem;
+    font-size:1.3rem;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    -webkit-border-radius: 0 6px 6px 0;
+    -moz-border-radius: 0 6px 6px 0;
+    -ms-border-radius: 0 6px 6px 0;
+    -o-border-radius: 0 6px 6px 0;
+    box-shadow: 0 0 4px rgba(4, 26, 27, 0.342);
+
+}
